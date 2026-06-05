@@ -1,6 +1,7 @@
 # Marco Cipriano Academic Website
 
 This is a lightweight static academic website inspired by Academic Pages and ready for GitHub Pages.
+This folder is the Git repository and the publishable site root.
 
 ## Edit the Profile Photo
 
@@ -12,9 +13,15 @@ Replace that file with your preferred photo, or add a new image in `assets/img/`
 
 ## Deploy on GitHub Pages
 
-1. Create or use a repository named `<your-github-username>.github.io`.
-2. Add these files to the root of the repository.
-3. Push to the `main` branch.
-4. In GitHub, open Settings, then Pages, and publish from the root of the `main` branch.
+1. Create or use the repository `potpov/marco-cipriano`.
+2. Push this repository to GitHub.
+3. In GitHub, open Settings, then Pages.
+4. Set Source to `Deploy from a branch`.
+5. Select branch `main` and folder `/root`.
+6. Save.
 
-For local preview, open `index.html` directly in a browser.
+The website will be published at:
+
+`https://potpov.github.io/marco-cipriano/`
+
+For local preview, run a local server from this folder and open `index.html`.
