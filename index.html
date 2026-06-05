@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marco Cipriano | Academic Website</title>
+    <meta
+      name="description"
+      content="Academic website for Marco Cipriano, PhD student at the Hasso Plattner Institute working on vision-language models, computer vision, and vector graphics."
+    >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="site-title" href="#top">Marco Cipriano</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+      </nav>
+    </header>
+
+    <main id="top" class="page-shell">
+      <aside class="profile" aria-label="Profile">
+        <img
+          class="profile-photo"
+          src="assets/img/profile.jpg"
+          alt="Marco Cipriano presenting at the HPI-MIT Designing for Sustainability workshop"
+        >
+        <h1>Marco Cipriano</h1>
+        <p class="profile-role">PhD student at the Hasso Plattner Institute</p>
+        <ul class="profile-links" aria-label="Academic links">
+          <li>
+            <a
+              href="https://scholar.google.com/citations?hl=it&amp;user=I9-JCwYAAAAJ"
+              rel="noreferrer"
+            >
+              <i class="fa-brands fa-google-scholar link-icon" aria-hidden="true"></i>
+              Google Scholar
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/potpov" rel="noreferrer">
+              <i class="fa-brands fa-github link-icon" aria-hidden="true"></i>
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a id="email-link" href="#" data-contact="split-email">
+              <i class="fa-solid fa-envelope link-icon" aria-hidden="true"></i>
+              Email
+            </a>
+          </li>
+        </ul>
+      </aside>
+
+      <div class="content">
+        <section id="about" class="section">
+          <p class="intro-kicker">Research</p>
+          <h2>About</h2>
+          <div class="prose">
+            <p>
+              I am a PhD student at the Hasso Plattner Institute (HPI), working with
+              <a href="https://hpi.de/en/de-melo/home.html" rel="noreferrer">Prof. Gerard de Melo</a>.
+              My research lies at the intersection of vision-language models, computer vision, and
+              vector graphics. I am interested in studying where current VLMs fall short in
+              visually and relationally complex settings, and in teaching models to generate and
+              reason with visual content, similarly to how humans naturally use sketches to explain
+              concepts.
+            </p>
+            <p>
+              I am currently working with
+              <a href="https://yael-vinker.github.io/website/" rel="noreferrer">Dr. Yael Vinker</a>
+              and Prof. Antonio Torralba (MIT CSAIL) on a project to enable sketching capabilities
+              in the model's reasoning process, with the goal of building systems that can explain
+              concepts visually and collaborate with students in a shared whiteboard space. I also
+              worked with Prof. Andres Sevtšuk (MIT DUSP) on a project to detect social
+              interactions in semantically complex urban scenes, with the goal of mapping which
+              areas of modern cities are more socially vibrant than others.
+            </p>
+          </div>
+        </section>
+
+        <section id="news" class="section">
+          <h2>Latest News</h2>
+          <ol class="news-list">
+            <li>
+              <time datetime="2026-03">Mar-Jun 2026</time>
+              <span>
+                I am visiting the lab of Prof. Antonio Torralba for 3 months at MIT CSAIL.
+              </span>
+            </li>
+            <li>
+              <time datetime="2025-11">Nov 2025</time>
+              <span>
+                Our work
+                <strong>MINGLE: VLMs for Semantically Complex Region Detection in Urban Scenes</strong>
+                was accepted at AAAI 2026.
+              </span>
+            </li>
+            <li>
+              <time datetime="2025-07">Jul 2025</time>
+              <span>
+                Our project
+                <a
+                  href="https://mad.mit.edu/projects/developing-whiteboard-literate-ai-for-equitable-and-accessible-education"
+                  rel="noreferrer"
+                >
+                  <strong>Whiteboard-literate AI</strong>
+                </a>
+                won a grant from the HPI–MIT Designing for Sustainability program.
+              </span>
+            </li>
+            <li>
+              <time datetime="2025-05">May 2025</time>
+              <span>
+                Our work
+                <strong>
+                  Vector Grimoire: Codebook-based Shape Generation under Raster Image Supervision
+                </strong>
+                was accepted at ICML 2025.
+              </span>
+            </li>
+          </ol>
+        </section>
+
+        <section id="publications" class="section">
+          <h2>Publications</h2>
+          <div class="publication-list">
+            <article class="publication">
+              <div class="publication-year">2026</div>
+              <div>
+                <h3>MINGLE: VLMs for Semantically Complex Region Detection in Urban Scenes</h3>
+                <p class="authors">
+                  Liu Liu, Alexandra Schild, <strong>Marco Cipriano</strong>, Fatimeh Al Ghannam,
+                  Freya Tan, Gerard de Melo, and Andres Sevtsuk.
+                </p>
+                <p class="venue">
+                  Proceedings of the AAAI Conference on Artificial Intelligence, 40(45),
+                  38935-38942.
+                </p>
+              </div>
+            </article>
+
+            <article class="publication">
+              <div class="publication-year">2025</div>
+              <div>
+                <h3>Vector Grimoire: Codebook-based Shape Generation under Raster Image Supervision</h3>
+                <p class="authors">
+                  <strong>Marco Cipriano</strong>, Moritz Feuerpfeil, and Gerard de Melo.
+                </p>
+                <p class="venue">Forty-second International Conference on Machine Learning.</p>
+              </div>
+            </article>
+
+            <article class="publication">
+              <div class="publication-year">2024</div>
+              <div>
+                <h3>
+                  ELSA: Evaluating Localization of Social Activities in Urban Streets using
+                  Open-Vocabulary Detection
+                </h3>
+                <p class="authors">
+                  Maryam Hosseini, <strong>Marco Cipriano</strong>, Sedigheh Eslami, Daniel
+                  Hodczak, Liu Liu, Andres Sevtsuk, and Gerard de Melo.
+                </p>
+                <p class="venue">arXiv preprint arXiv:2406.01551.</p>
+              </div>
+            </article>
+
+            <article class="publication">
+              <div class="publication-year">2023</div>
+              <div>
+                <h3>
+                  Inferior alveolar canal automatic detection with deep learning CNNs on CBCTs:
+                  development of a novel model and release of open-source dataset and algorithm
+                </h3>
+                <p class="authors">
+                  Mattia Di Bartolomeo, Arrigo Pellacani, Federico Bolelli,
+                  <strong>Marco Cipriano</strong>, Luca Lumetti, Sara Negrello, Stefano Allegretti,
+                  Paolo Minafra, Federico Pollastri, Riccardo Nocini, and others.
+                </p>
+                <p class="venue">Applied Sciences, 13(5), 3271.</p>
+              </div>
+            </article>
+
+            <article class="publication">
+              <div class="publication-year">2022</div>
+              <div>
+                <h3>
+                  Improving segmentation of the inferior alveolar nerve through deep label
+                  propagation
+                </h3>
+                <p class="authors">
+                  <strong>Marco Cipriano</strong>, Stefano Allegretti, Federico Bolelli, Federico
+                  Pollastri, and Costantino Grana.
+                </p>
+                <p class="venue">
+                  Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern
+                  Recognition, 21137-21146.
+                </p>
+              </div>
+            </article>
+
+            <article class="publication">
+              <div class="publication-year">2022</div>
+              <div>
+                <h3>Long-range 3D self-attention for MRI prostate segmentation</h3>
+                <p class="authors">
+                  Federico Pollastri, <strong>Marco Cipriano</strong>, Federico Bolelli, and
+                  Costantino Grana.
+                </p>
+                <p class="venue">
+                  2022 IEEE 19th International Symposium on Biomedical Imaging (ISBI), 1-5.
+                </p>
+              </div>
+            </article>
+
+            <article class="publication">
+              <div class="publication-year">2022</div>
+              <div>
+                <h3>
+                  Deep segmentation of the mandibular canal: a new 3D annotated dataset of CBCT
+                  volumes
+                </h3>
+                <p class="authors">
+                  <strong>Marco Cipriano</strong>, Stefano Allegretti, Federico Bolelli, Mattia Di
+                  Bartolomeo, Federico Pollastri, Arrigo Pellacani, Paolo Minafra, Alexandre Anesi,
+                  and Costantino Grana.
+                </p>
+                <p class="venue">IEEE Access, 10, 11500-11510.</p>
+              </div>
+            </article>
+
+            <article class="publication">
+              <div class="publication-year">2021</div>
+              <div>
+                <h3>
+                  The color out of space: learning self-supervised representations for earth
+                  observation imagery
+                </h3>
+                <p class="authors">
+                  Stefano Vincenzi, Angelo Porrello, Pietro Buzzega, <strong>Marco Cipriano</strong>,
+                  Pietro Fronte, Roberto Cuccu, Carla Ippoliti, Annamaria Conte, and Simone
+                  Calderara.
+                </p>
+                <p class="venue">
+                  2020 25th International Conference on Pattern Recognition (ICPR), 3034-3041.
+                </p>
+              </div>
+            </article>
+
+            <article class="publication">
+              <div class="publication-year">2021</div>
+              <div>
+                <h3>
+                  A cone beam computed tomography annotation tool for automatic detection of the
+                  inferior alveolar nerve canal
+                </h3>
+                <p class="authors">
+                  Cristian Mercadante, <strong>Marco Cipriano</strong>, Federico Bolelli, Federico
+                  Pollastri, Alexandre Anesi, Costantino Grana, and others.
+                </p>
+                <p class="venue">
+                  Proceedings of the 16th International Joint Conference on Computer Vision,
+                  Imaging and Computer Graphics Theory and Applications, Volume 4: VISAPP, 724-731.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Marco Cipriano. Built for GitHub Pages.</p>
+    </footer>
+
+    <script>
+      const emailLink = document.querySelector('[data-contact="split-email"]');
+
+      if (emailLink) {
+        emailLink.addEventListener('click', (event) => {
+          event.preventDefault();
+
+          const local = ['marco', 'cipriano'].join('.');
+          const domain = ['hpi', 'de'].join('.');
+          window.location.href = ['mailto:', local, '@', domain].join('');
+        });
+      }
+    </script>
+  </body>
+</html>

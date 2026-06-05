@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">White profile photo placeholder</title>
+  <desc id="desc">A blank white square placeholder that can be replaced with a profile photo.</desc>
+  <rect width="900" height="900" fill="#ffffff"/>
+  <circle cx="450" cy="356" r="134" fill="#ffffff" stroke="#d9dfdf" stroke-width="14"/>
+  <path d="M220 720c31-116 123-184 230-184s199 68 230 184" fill="#ffffff" stroke="#d9dfdf" stroke-width="14" stroke-linecap="round"/>
+</svg>
