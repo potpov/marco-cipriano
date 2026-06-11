@@ -129,12 +129,16 @@ a:hover {
   list-style: none;
 }
 
-.profile-links a {
+.profile-links a,
+.profile-meta {
   display: inline-flex;
   align-items: center;
   gap: 9px;
   color: var(--ink);
   font-weight: 650;
+}
+
+.profile-links a {
   text-decoration: none;
 }
 
